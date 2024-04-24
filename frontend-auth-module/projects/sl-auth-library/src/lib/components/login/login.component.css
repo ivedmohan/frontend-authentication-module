@@ -74,12 +74,64 @@
 }
 .forgot{
     margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+    margin: auto;
+    font-weight: 700;
+    color: #973015;
+    cursor: pointer;
+}
+.brown{
+    color: #832215;
+}
+.login-button {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 1rem 0 1rem 0;
+    margin: auto;
+    border: none;
+    background-color: #832215;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
 }
-a{
-    color: #832215;
-    text-decoration:solid;
-    font-size: 1.2rem;
-    font-weight: 500;
+  
+.login-button:disabled {
+    background-color: #e4e3e0;
+    cursor: not-allowed;
+    color: #7f7f7f;
+  
+    box-shadow: rgba(37, 37, 37, 0.18) 0px 2px 2px;
+}
+.login-button:hover{
+    background-color:#8d3327;
+}
+::ng-deep.mat-form-field-underline {
+    background-color: black !important;
+} 
+  
+.additional-info {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #92949c;
+}
+  
+.terms {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+    font-size: 0.8rem;
+}
+.blue {
+    color: #4400ff;
+    cursor: pointer;
 }

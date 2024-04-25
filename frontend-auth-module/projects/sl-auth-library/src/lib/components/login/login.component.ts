@@ -15,7 +15,8 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
     
   }
+  loginUser(data:any){
+    console.warn(data);
+  }
   
 }
-
-
